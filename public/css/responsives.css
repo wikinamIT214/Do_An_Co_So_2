@@ -1,0 +1,127 @@
+.text-left{padding: 170px 0px 0px 30px;}
+.imgWrap{width: 100%;}
+.banner-mobile{display: none;}
+.banner-desktop{display: block;}
+@media (min-width: 1200px){
+    .HeaderNavigation-desktop{
+        display: flex;
+    }
+    .c-header__logo-desktop{
+        display: block;
+    }
+    .c-header__icon-container-desktop{
+        display: flex;
+    }
+    .HeaderNavigation-mobile{
+        display: none;
+    }
+    .c-header__logo-mobile{
+        display: none;
+    }
+    .c-header__icon-container-mobile{
+        display: none;
+    }
+    .c-header__cart-container-mobile{
+        display: none;
+    }
+    .icon_search{
+        display: none;
+    }
+    /* .wrapper-expertise{display: block;}
+    .wrapper-expertise_mobile{display: none;} */
+
+}
+@media (max-width: 1200px)
+{
+.HeaderNavigation-desktop{
+    display: none;
+}
+.c-header__logo-desktop{
+    display: none;
+}
+.c-header__icon-container-desktop{
+    display: none;
+}
+.search input{
+    width: 90%;
+}
+.c-header__cart-container-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.c-header__icon-container-mobile .wrapper_search{
+    width: 100%;
+}
+.wrapper_search input{
+    width: 90%;
+}
+.icon_search{
+    display: none;
+}
+.brand-item{
+    width: 33.3333%;
+    margin-top: 3rem;
+}
+.inner_brand-item{
+    text-align: center;
+}
+.imgWrap{
+    width: 70%;
+}
+}
+@media (max-width:991px){
+    .margin-top-mobileMax-12{border-top: 1px solid rgb(219, 219, 219);}
+}
+@media (max-width:900px){
+.c-header-ribbon{
+    display: none;
+}
+.c-header__main{
+    box-shadow: 3px 4px 3px rgb(82, 81, 81);
+}
+.brand-item{
+    width: 33.3333%;
+    margin-top: 3rem;
+}
+.inner_brand-item{
+    text-align: center;
+}
+.imgWrap{
+    width: 70%;
+}
+.band-3up{
+    /* display: none; */
+}
+.wrapper_search{
+    display: none;
+}
+.icon_search{
+    display: block;
+    margin-right: 1rem;
+}
+
+/* responsive cho home */
+.container-fluid ,.col-md-6{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.wrapper-quality{
+    padding-top: 0px !important;
+}
+.quality-items{border-radius: 0px !important;}
+.bottom{border-top: 1px solid rgb(211, 211, 211);}
+.text-left{padding: 3rem;}
+.elementor-section{
+    height: auto;
+}
+.elementor-column{margin-top: 2rem;}
+.text-center-mobile{text-align: start;}
+.col-12{padding-left: 0px !important;padding-right: 0px !important;}
+.margin-top-mobile{margin-top: 0px;}
+ .banner-desktop{display: block;}
+/* .banner-mobile{display: block;} */ 
+}
+@media (max-width:600px){
+    
+}

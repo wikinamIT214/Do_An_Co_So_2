@@ -1,0 +1,130 @@
+.write-review{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+}
+.textarea_rv{
+    padding: 15px;
+    font-size: 15px;
+}
+.textarea_rv,.input_rv{
+    border:none;
+    border-radius: 5px;
+}
+input,textarea:focus{
+    outline: 0 !important;
+}
+.button_review{
+    background-color: #e50505 !important;
+    padding: 1.5rem 1rem;
+    border-radius: 4px;
+    box-shadow: 0px 7px 0px rgb(145, 2, 2);
+    transition: .7s;
+}
+.button_review:hover{
+    box-shadow: none;
+    transform: translateY(7px);
+}
+.button_review a{
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+}
+.button_review a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.label_review{
+    font-size: 17px;
+    color: black;
+    font-family: roboto;
+    font-weight: 600;
+    text-size-adjust: 10px;
+}
+.ratingReview{
+    background-color: grey;
+}
+.activeReview::before{
+    content: '\f00c';
+    font-family: FontAwesome;
+    color: black;
+}
+input[type=radio]{
+    display: none;
+}
+input[type=radio]:checked ~ .ratingReview
+.avageRating-header h4{
+    font-size: 18px;
+    color: #0e1111 !important;;
+    font-family:Roboto !important;
+    line-height:19.5px !important;
+    padding:10px !important;
+    text-align:left !important;
+    text-transform: none !important;
+}
+.overall,.overall-header span{
+    font-size: 16px;
+    font-family: roboto;
+    color:  #0e1111;
+    text-align:left;
+    line-height:19.5px
+}
+.crossbar{
+    position: relative;
+}
+.percent_rating{
+    position: absolute;
+    background-color: grey;
+    height: 10px;
+    border-radius: 3px;
+}
+.divideReview{
+    background-color: rgb(235, 235, 235);
+}
+.divideReview h3{
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 500;
+    text-transform: none;
+    padding: 8px 0px;
+}
+.userName_review p{
+    background-position:0px 0px;
+    color:#0e1111;
+    font-family:Roboto;
+    font-weight:700;
+    line-height:25px;
+    font-size: 17px;
+}
+.numberStar_review span{
+    background-position:0px 0px;
+    font-family:Roboto;
+    line-height:18px;
+    font-size:16px;
+}
+.content_review p{
+    background-position:0px 0px;
+    color:#515151;
+    font-family:Roboto;
+    line-height:24px;
+    margin:0px 0px 16px;
+    text-align:left;
+    font-size: 16px;
+}
+.content_review span{
+    background-position:0px 0px;
+    color:#515151;
+    font-family:Roboto;
+    line-height:24px;
+    margin:0px 0px 16px;
+    text-align:left;
+    font-size: 17px;
+}
+.reviewTitle p{
+    background-position:0px 0px;
+    color:#0e1111;
+    font-family:Roboto;
+    font-weight:700;
+    line-height:20px;
+    font-size: 16px;
+}

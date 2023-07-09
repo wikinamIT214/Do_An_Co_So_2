@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.page-body{
+    max-width: 65%;
+}
+.float-l{
+    float: left;
+}
+.main form{
+    font-size: 16px;
+}
+.field-item{
+    margin-bottom: 23px;
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.field-item input{
+    width:100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.field-item select{
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+.field-item select:hover{
+    background-color: white;
+}
+.field-item input:hover{
+    background-color: white;
+}
+.form-heading_main{
+    margin: 4rem auto;
+}
+.form-heading_main>h1{
+    font-family: roboto;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.hr{margin: 4rem 15px 2rem 15px;}
+.heading{
+    padding-bottom: 2rem ;
+    padding-left: 10px;
+}
+.heading h2{
+    font: 700 2.2rem/1.1 Roboto, Arial, sans-serif;
+    color: black;
+}
+.register_submit{
+    text-align: end;
+}
+.register_button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: roboto,sans-serif;
+}
+.has-error >span{font-size: 14px;color: red;margin-top:5px;}

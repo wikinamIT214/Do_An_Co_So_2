@@ -1,0 +1,43 @@
+.field-item .error{
+    border: 2px solid #f5350a;
+    transition: .3s;
+}
+.field-item input:focus{
+    border: 2px solid rgb(31, 123, 243);
+}
+.field-item small{
+    color: #f5350a;
+}
+.list-group img{
+    width: 70px;
+}
+.list-group li{
+    padding: 10px 5px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.list-group li div{
+    align-items: center;
+}
+.product_name a{
+    text-transform: none;
+    color: black;
+}
+.product_name a:hover{
+    text-decoration: none;
+    color: red;
+}
+.product_brand p,.product_price p{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+#output_search li:hover{
+    background-color: rgb(223, 223, 223);
+}
+.w-95{
+    width: 95%;
+}
+.w-1037{
+    width: 1037px;
+}

@@ -1,0 +1,108 @@
+.page-notification{
+    margin-top: 2rem;
+}
+.page-notification_Inner{
+    padding: 20px;
+    text-align: center;
+}
+.page-notification_InnerTop{display: flex;justify-content: center;align-items: center;}
+.page-notification_InnerTop{margin-top: 15px;}
+.page-notification_InnerTop span{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: roboto;
+    line-height: 3;
+    margin-left: 12px;
+}
+.Icon_complete{
+    border: 2px solid green;
+    border-radius: 50%;
+}
+.Icon{margin: 5px;color: green;}
+.page-notification_InnerBottom .Thanks{
+    margin-left: 4rem;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+.page-notification_InnerBottom .Time_shipping{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 4rem;
+    font-family: 'Roboto';
+}
+/* end css phần notification-complete */
+/* start css phần page-view-bill */
+.page-ViewBill_Inner{border: 1px solid rgb(165, 165, 165);background-color: #f5f5f5;}
+.page-ViewBill_InnerTop{
+    padding: 8px 0px;
+    border-bottom: 1px dashed rgb(165, 165, 165);
+}
+.page-ViewBill_InnerTop h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    margin: 0px 15px;
+}
+.page-ViewBill_InnerBottom{
+    padding: 20px 0px;
+}
+.Product_bill_Lable{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    line-height: 2.4;
+    margin: 0px 15px;
+}
+.Product_bill_Value{
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 2.4;
+    margin: 0px 15px;
+}
+.col-6{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.TotalProduct_bill{border-top: 1px solid rgb(165, 165, 165);}
+/* css header tạm tại đây */
+.view-account{
+    position: absolute;
+    top: 31px;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 1 2 3;
+    box-shadow: 2px 4px 2px #e9e4e4;
+    text-align: center;
+    border: 1px solid rgb(201, 201, 201);
+    display: none;
+
+}
+.login_logout{position: relative;}
+.view-account{
+    position: absolute;
+    top: 31px;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 1 2 3;
+    box-shadow: 2px 4px 2px #e9e4e4;
+    text-align: center;
+    border: 1px solid rgb(201, 201, 201);
+    display: none;
+
+}
+.Account_main,.logout{
+    padding: 10px 10px;
+    border-bottom: 1px solid;
+    border: 1px solid rgb(201, 201, 201)
+}
+.Account_main a,.logout a{
+    text-transform: none;
+    color: black;
+    font-family: roboto;
+    font-size: 15px;
+}
+.login_logout a:hover .view-account{
+    display: block;
+}

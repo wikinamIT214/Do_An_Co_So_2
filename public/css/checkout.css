@@ -1,0 +1,109 @@
+#main{background-color: #f5f5f5;}
+/* start css layoutshippingInfo */
+.pageLayout{padding-top: 3rem;padding-bottom: 3rem;}
+.pageLayout_shippingInfo{margin: auto 10rem;background-color: white;}
+.wrapper_shippingInfo{padding: 15px;}
+.lable_shippingInfo >p{font-size: 16px;font-weight: 500;color: black;margin-top: 2rem;}
+.shippingInfo{margin: 2rem 0px;}
+.main_shippingInfo{font-size: 15px;font-family: roboto;font-weight: 500;margin-left: 15px;}
+.Name_shippingInfo,.phone_shippingInfo{font-size: 16px;font-weight: 600;}
+.toggleAddress>a{text-transform: none;text-decoration: none;color: blue;}
+/* end css layoutshippingInfo */
+/* ========================= */
+/* start css layoutProduct */
+.pageLayout_product{
+    margin: 15px 10rem;
+    background-color: white;
+}
+.wrapper_layoutProduct{padding: 20px;}
+.productField{margin-right: 5rem;}
+.productField p{font-size: 14px;font-family: roboto;}
+.Price{margin-right: 6rem;}
+.Product{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    font-family: roboto;
+}
+.Product_content{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+.ProductName{
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.ProductName .Name{margin-right: 4rem;}
+.ProductName .Brand{    
+    font-weight: 400;
+    font-size: 15px;
+    color: #959595;}
+.infoProduct_lable,.infoProduct_content{margin: 20px 0px;}
+.infoProduct_contentInner{margin-top: 5rem;}
+.unit_shipping{
+    display: flex;
+    padding: 15px;
+    background-color: #e8e8f9;
+    border-top: 1px dashed rgb(182, 182, 182);
+}
+.unit_shipping-left{display: flex;}
+.mr-5r{margin-right: 5rem;}
+.mr-5r p{
+    font-size: 15px;
+    font-family: roboto;
+}
+.mr-7r{margin-right: 7rem;}
+.lable_UnitShipping p{color: #2525e1;;}
+/* end css layoutProduct */
+/* ======================= */
+/* start css layoutCheckout */
+
+.pageLayout_checkout{padding: 15px 10rem;}
+.top_checkout{padding: 20px;background-color: white;}
+.top_checkout p{font-size: 16px;font-family: roboto;font-weight: 600;color: black;}
+.check_bill{padding: 3rem;background-color: #fffefb;}
+.product_total,.shipping_fee,.checkout_total{
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.total_lable,.shipping_lable{margin-right: 8rem;}
+.checkout_lable{margin-right: 3rem;}
+.bottom_checkout{border-top: 1px solid rgb(197, 197, 197);}
+.checkout_end{background-color: #fffefb;}
+.checkout_end{padding: 20px;border-top:1px dashed rgb(197, 197, 197);}
+.wrapper_checkoutEnd button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.rules_checkout span{
+    font-size: 14px;
+    font-family: roboto;
+}
+.rules_checkout span a{
+    text-transform: none;
+    font-size: 14px;
+    color: blue;
+}
+
+
+/* end css layoutCheckout */
+/* start css InsertAddress */
+.pageLayout{position: relative;}
+#address{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+/* end css InsertAddress */

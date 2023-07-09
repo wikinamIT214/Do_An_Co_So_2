@@ -1,0 +1,150 @@
+.view_account{
+    position: absolute;
+    top: 25px;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 1 2 3;
+    box-shadow: -7px -1px 7px 1px #bbbbbb;
+    text-align: center;
+    border: 1px solid rgb(255 255 255);
+    display: none;
+    transition-duration: 1s;
+
+}
+.Account_main,.logout{
+    padding: 10px 10px;
+    border-bottom: 1px solid;
+    border: 1px solid rgb(201, 201, 201)
+}
+.Account_main a,.logout a{
+    text-transform: none;
+    color: black;
+    font-family: roboto;
+    font-size: 15px;
+}
+.c-header-ribbon__item:hover .view_account{display: block;}
+#main{position: relative;}
+.Address{
+    position: fixed;
+    top: 19px;
+    left: 50%;
+    transform: translate(-270px, 0px);
+    bottom: 14px;
+    width: 500px;
+    background-color: white;
+    z-index: 9999;
+}
+.headingADD{
+    margin-top: 2rem;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+}
+.headingADD h3{margin: 10px;}
+.insertAddress_toggle {
+    margin: 2rem 10px;
+    border: 1px solid rgb(197, 197, 197);
+    width: 173px;
+}
+/* .insertAddress_toggle a{margin-left: 5px ;} */
+.insertAddress_toggle a:hover{color:rgb(97, 96, 96) ;}
+.address_toggleADD{
+    font-size: 16px;
+    font-family: roboto;
+    text-transform: none;
+    color: rgb(97, 96, 96);
+}
+.address_icon{color:rgb(97, 96, 96) ;margin-left: 10px;}
+.address_toggleADD:hover{text-decoration: none;}
+.insertAddress_entry{padding: 15px 10px;}
+.insertAddress_entry input{  
+    width: 100%;
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+}
+.insertAddress_wrap{position: relative;}
+.buttonAddress{
+    position: fixed;
+    bottom: -5px;
+    width: 100%;
+    padding: 15px 10px;
+    text-align: end;
+    align-items: center;
+    border-top: 1px dashed rgb(158, 158, 158);
+}
+.buttonAddress button{
+    background: none;   
+    margin-right: 15px;
+    background: none;
+    padding: 10px 25px;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: white;
+}
+.buttonAddress a{
+    margin-right: 15px;
+    text-transform: none;
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border: 1px solid black;
+}
+.buttonAddress a:hover{
+    text-decoration: none;
+    color: black;
+}
+.PagePath_wrap{
+    padding: 15px;
+    background-color: white;
+}
+.Path_main span a{text-transform: none;}
+.Path_main span a:hover{text-decoration: none;}
+.addressRemember{padding: 15px 10px;background-color: #f5f5f5;}
+.addressRemember>p{
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 500;
+}
+.login button{
+    background: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.button_loginSubmit{padding: 10px 10px;text-align: center;background-color: black;}
+.button_loginSubmit a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-transform: none;
+}
+.button_loginSubmit a:hover{
+    text-decoration: none;
+    color: white;
+}
+#selectedFlPrice button{
+    background: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.element-prod-wrap{position: relative;}
+.sale{position: absolute;margin: 10px;}
+.sale span{
+    align-items:center;
+    background-color:#e71836;
+    color:#ffffff;
+    display:flex;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:0.5px;
+    line-height:28px;
+    margin:0px 0px 16px;
+    padding:0px 8px;
+    text-align:left;
+    text-transform:uppercase;
+}

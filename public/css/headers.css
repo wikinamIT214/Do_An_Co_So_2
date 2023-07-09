@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: roboto;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+/* start_nav-1 */
+.c-header-ribbon {
+    background-color:black;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.wrapper-connect{
+    display: flex;
+}
+
+.login_logout,.phone_contact{
+    width: 100%;
+    margin-right: 30px;
+    position: relative;
+}
+.login_logout a{
+    text-decoration: none;
+    font-family: roboto;
+}
+.login_logout a:hover{
+    text-decoration: none;
+}
+.login_logout a p,.phone_contact p strong{
+    color: white;
+    outline: none;
+    text-transform: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: auto;
+    font-family: roboto;
+}
+.view_account{
+    position: absolute;
+    top: 31px;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 1 2 3;
+    box-shadow: 2px 4px 2px #e9e4e4;
+    text-align: center;
+    border: 1px solid rgb(201, 201, 201);
+    display: none;
+
+}
+.Account_main,.logout{
+    padding: 10px 10px;
+    border-bottom: 1px solid;
+    border: 1px solid rgb(201, 201, 201)
+}
+.Account_main a,.logout a{
+    text-transform: none;
+    color: black;
+    font-family: roboto;
+    font-size: 15px;
+}
+.login_logout a:hover .view-account{
+    display: block;
+}
+/* end_nav-1 */
+                    /* ===== */
+/* start_nav-2 */
+.c-header__main{
+    background-color: black;
+    border-top: 1px solid grey;
+    margin-right: 0px;
+    padding: 10px 0px;
+}
+.c-header-ribbon__item{padding: 10px;}
+.c-header_logo{
+    padding-top:5px ;
+} 
+.wrapper-logo{
+    /* background-color: white; */
+}
+.logo{
+    text-align: center;
+    /* background-color: white; */
+}
+.logo strong{
+    font-size: 28px;
+    color: black;
+    font-weight: 550;
+    font-family: fantasy;
+    background-color: white;
+}
+.logo strong:hover{text-decoration: none;}
+.HeaderNavigation {
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderNavigation-item{
+    margin-right: 2.5rem;
+    position: relative;
+    height: 43px;
+    padding-top: 10px;
+}
+.HeaderNavigation-item:hover .HeaderNavigation-link{text-decoration: none;color: red;}
+.HeaderNavigation-item .HeaderNavigation-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: roboto;
+}
+.child_menu-brand{
+    width: 1000px;
+    position: absolute;
+    display: none;
+    background-color: black;
+    top: 43px;
+    left: -100px;
+    z-index: 999;
+    opacity: 0.9;
+}
+.sub-menu-brand{
+    display: flex;
+    background-color: black;
+    padding: 15px;
+}
+.HeaderNavigation-item:hover .child_menu-brand{
+    display: block;
+}
+.wrapper-img{
+    width: 111px;
+    height: 67px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.child_menu{
+    position: absolute;
+    display: none;
+    width: 1000px;
+    left: -245px;
+    background-color: black;
+    top: 43px;
+    padding-top: 10px;
+    opacity: 0.9;
+    z-index: 999;
+}
+.sub-menu {
+    width: 200px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.HeaderNavigation-item:hover .child_menu{
+    display: block;
+}
+ul li{
+    width: 100%;
+    list-style-type: none;
+}
+.c-header__icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search{
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    padding: 1rem 0px;
+    align-items: center;
+    background-color: white;
+}
+.search input{padding: 10px;height: 100%;}
+.search input,button{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 14px;
+    height: 100%;
+    padding: 0px 1rem;
+}
+input:focus{
+    outline: 0 !important ;
+}
+button:focus{
+    outline: 0 !important ;
+}
+.HeaderNavigation-item a{
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+}
+/* .sub-menu p{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+} */
+.sub-menu hr{
+    width: 100%;
+    border-color: grey
+}
+.title_sub-menu p{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+}
+.title_sub-menu p:hover a{
+    text-decoration: none;
+    color: red;
+}
+.bg-f5f5f5{background-color: #f5f5f5;}
+.wrapper_cart{
+    position: relative;
+}
+.product_number{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: -3px;
+}
+/* start_nav-2 */
+
